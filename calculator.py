@@ -15,7 +15,7 @@ def main():
         if sec_num != 0:
             print(fst_num / sec_num)
         else:
-            print("Ошибка. Делить на ноль нельзя.")
+            print("Error: Division by zero.")
     elif action == "*":
         print(fst_num * sec_num)
 
@@ -24,4 +24,4 @@ try:
     while __name__ == '__main__':
         main()
 except KeyboardInterrupt:
-    print("Завершение программы")
+    print("The program has been completed")
